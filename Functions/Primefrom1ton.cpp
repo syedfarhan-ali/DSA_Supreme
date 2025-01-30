@@ -1,4 +1,3 @@
-//UNSOLVED
 #include<iostream>
 using namespace std;
 //Print all prime numbers from 1 to N
