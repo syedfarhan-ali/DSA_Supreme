@@ -19,8 +19,8 @@ int main()
     int* a = nullptr;
     cout << "value of a: " <<*a << endl;
 
-    int a = 100;
-    int* ptr = &a;
+    int b = 100;
+    int* ptr = &b;
 
     cout << "printing a: "<< a << endl;
     cout << "printing &a: "<< &a << endl;
@@ -53,12 +53,12 @@ int main()
     cout << "printing *(arr+3) :"<< *(arr+3) << endl;
 
     char ch[50] = "Hello";
-    char* cptr = ch;
+    char* cptr = ch; //this line throws an error
     cout << ch << endl;
     cout << *cptr << endl;
 
     char ch[50] = "statement";
-    char* cptr = ch;
+    char* cptr = ch; // this line throws and error
     cout << "printing ch: "<< ch << endl;
     cout << "printing &ch: "<< &ch << endl;
     cout << "printing *(ch+3): "<< *(ch+3) << endl;
